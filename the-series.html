@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сериал</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap&_v=20230915195952" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230915195952">
+</head>
+
+<body>
+	<header class="header">
+	<div class="container">
+		<div class="header__inner">
+			<h1 class="logo">
+				<a href="/">MONTANA</a>
+			</h1>
+			<div class="films-and-series">
+				<a href="films.html" class="films">фильмы</a>
+				<a href="series.html" class="series">сериалы</a>
+			</div>
+			<div class="search">
+				<a href="films-and-series.html" class="search__link">
+					<img class="search--img" src="img/search-img.svg" alt="">
+				</a>
+				<input type="text" class="search__input" placeholder="Найти">
+			</div>
+			<button class="telegram">наш телеграм канал</button>
+			<a class="responsive-logo" href="/">
+				<img class="responsive-logo--img" src="img/responsive-logo.svg" alt="">
+			</a>
+		</div>
+	</div>
+</header>
+	<main class="main">
+		<section class="the-series__video">
+			<div class="container">
+				<div class="the-series__video--nav-bar">
+					<h2 class="the-series__video--title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+						praesentium numquam fugit eum voluptatibus dolore exercitationem corrupti nesciunt consequatur
+						fuga
+						molestias enim beatae eligendi deleniti id. Tenetur recusandae a voluptatum!</h2>
+					<ul class="nav-bar__series-and-seasons">
+						<li class="nav-bar__series">
+							<div class="nav-bar__series--title">Серии</div>
+							<ul>
+								<li class="nav-bar__series--item"><a href="">1 серия</a></li>
+								<li class="nav-bar__series--item"><a href="">2 серия</a></li>
+								<li class="nav-bar__series--item"><a href="">3 серия</a></li>
+								<li class="nav-bar__series--item"><a href="">4 серия</a></li>
+								<li class="nav-bar__series--item"><a href="">5 серия</a></li>
+								<li class="nav-bar__series--item"><a href="">6 серия</a></li>
+							</ul>
+						</li>
+						<li class="nav-bar__seasons">
+							<div href="" class="nav-bar__seasons--title">Сезоны</div>
+							<ul>
+								<li class="nav-bar__seasons--item"><a href="">1 сезон</a></li>
+								<li class="nav-bar__seasons--item"><a href="">2 сезон</a></li>
+								<li class="nav-bar__seasons--item"><a href="">3 сезон</a></li>
+								<li class="nav-bar__seasons--item"><a href="">4 сезон</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="the-series__video--player">
+					<video src="videos/Boulevard-Depo—DRUГ.mp4" controls width="900"></video>
+				</div>
+			</div>
+		</section>
+		<section class="the-series__description">
+			<div class="container">
+				<h2 class="the-series__description--title">Описание</h2>
+				<p class="the-series__description--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					Inventore
+					vitae
+					ex nulla eaque. Id ab deleniti saepe quisquam commodi, voluptatum corporis ullam consequatur autem
+					veritatis
+					amet numquam, libero inventore enim.</p>
+			</div>
+		</section>
+	</main>
+	<mobile-menu class="mobile-menu">
+	<div class="container">
+		<ul class="mobile-menu__items">
+			<li class="mobile-menu__item">
+				<a href="index.html" class="mobile-menu__item--link">
+					<img class="mobile-menu__item--img " src="img/mobile-menu-main-page.svg" alt="">
+					<div class="mobile-menu__item--text">Главная</div>
+				</a>
+			</li>
+			<li class="mobile-menu__item">
+				<a href="films.html" class="mobile-menu__item--link">
+					<img class="mobile-menu__item--img " src="img/mobile-menu-films.svg" alt="">
+					<div class="mobile-menu__item--text">Фильмы</div>
+				</a>
+			</li>
+			<li class="mobile-menu__item">
+				<a href="series.html" class="mobile-menu__item--link">
+					<img class="mobile-menu__item--img active" src="img/mobile-menu-series.svg" alt="">
+					<div class="mobile-menu__item--text">Сериалы</div>
+				</a>
+			</li>
+			<li class="mobile-menu__item">
+				<a href="films-and-series.html" class="mobile-menu__item--link">
+					<img class="mobile-menu__item--img " src="img/mobile-menu-search.svg" alt="">
+					<div class="mobile-menu__item--text">Поиск</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+</mobile-menu>
+	<script src="js/app.min.js?_v=20230915195952"></script>
+</body>
+
+</html>
